@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 30px;
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    min-width: 60px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+
+.default .container {
+    flex-direction: row;
+}
+
+
+.column .container {
+    flex-direction: column;
+}
+
+.justifycontent .container {
+    justify-content: space-between;
+}
