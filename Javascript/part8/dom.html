@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript DOM Fun Exmaple with chai</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            background-color: black;
+            color: aliceblue;
+        }
+
+        .highlight{
+            background-color: yellow;
+            font-weight: bold;
+            color: #1a1a1a;
+        }
+        ul {
+                list-style-type: none; 
+        }
+    </style>
+</head>
+<body>
+    <div id="first">
+        <!-- Example 1:Accessing the DOM elements -->
+        <h1 id="firsth">Javascript DOM Fun Exmaple</h1>
+            <h2 id="firsth1">Accessing DOM elements</h2>
+            <p id="firstp">This is paragraph.Click the button to change me!</p>
+            <button id="firstb">Change Text</button>
+
+        <!-- Example 2:Traversing the DOM. -->
+        <h1 id="secondh1">Traversing the DOM</h1>
+        <ul id="firstul">
+            <li id="li">NewYork</li>
+            <li>Tokyo</li>
+            <li>Paris</li>
+            <li>London</li>
+        </ul>
+        <button id="secondb">Highlight first city</button>
+
+        <!-- Exmaple 3:Manuplating DOM elements -->
+        <h2>Manuplating DOM Elements</h2>
+        <div id="coffeeOrder">Order: <span id="coffeeType">Lattee</span>
+            <div> <button id="ChangeOrder">Change order ot Eespresso</button></div>
+
+        <!-- Example 4:Createing and inserting the elements -->
+        <h1 id="fourthh1">Creating and Instering Elements</h1>
+        <button id="fourthb">Add a new item to the Shopping List</button>
+        <ul id="secondul">
+            <li>Bread</li>
+            <li>milk</li>
+        </ul>
+
+        <!-- Example 5:Removing the DOM elements -->
+        <h1 id="fivthh1">Removing DOM Elements</h1>
+        <ul id="thirdul">
+            <li>Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li>
+        </ul>
+        <button id="fivthb">Remove the Last task</button>
+
+        <!-- Exmaple 6:Event handling in DOM -->
+        <h2 id="firsth2">Event Handling in the DOM</h2>
+        <button id="sixthb">Click me</button>
+
+        <!-- Exmaple 7:Event Delegation -->
+        <h2>Event Delegation</h2>
+        <ul id="teaList">
+            <li class="teaItem">Green Tea</li>
+            <li class="teaItem">Black Tea</li>
+            <li class="teaItem">OOlong Tea</li>
+        </ul>
+        <p>Click on any tea to select it!</p>
+    </div>
+
+    <!-- Exmaple 8:Feedback Form-->
+    <h2>From Handling</h2>
+    <form action="submit" id="feedbackForm">
+        <label for="feebbackInput">Your Feedback</label>
+        <input type="text" id="feebbackInput" placeholder="Enter the feedback">
+        <button type="submit">Submit Feedback</button>
+    </form>
+    <p id="feebbackDisplay"></p>
+
+    <!-- Exmaple 9:DOM content Loaded -->
+     <h2>DOM content Loaded</h2>
+     <p id="domStatus">Waiting for DOM to load...</p>
+
+
+    <!-- Example 10:CSS classes Manipulation -->
+     <h2>CSS classes Manipulation</h2>
+     <p id="decriptionText">This text will change color</p>
+     <button id="high">Click It to change color</button>
+
+    <!-- Add script to end so that it can be loaded when dom is access in script.js/js file  -->
+    <script src="./script.js"></script>
+</body>
+</html>
