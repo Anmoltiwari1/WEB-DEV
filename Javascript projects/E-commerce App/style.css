@@ -1,0 +1,115 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Main Section */
+.main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+/* Products Section */
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.products > div {
+    background-color: #eaf6f6;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.products > div:hover {
+    transform: scale(1.05);
+}
+
+.products h6 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.products button {
+    padding: 8px 15px;
+    background-color: #00b894;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.products button:hover {
+    background-color: #019875;
+}
+
+/* Billing Section */
+.billing {
+    border-top: 2px solid #ccc;
+    padding-top: 20px;
+}
+
+.billing h1 {
+    margin-bottom: 15px;
+}
+
+.billing .products,
+.billing .Amount {
+    margin: 10px 0;
+}
+
+.billing ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.billing li {
+    background-color: #dff9fb;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    list-style-type: none;
+}
+.billing button {
+    padding: 8px 15px;
+    background-color: #00b894;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#Checkout{
+    display: none;
+}
+.Delete{
+    display: none;
+}

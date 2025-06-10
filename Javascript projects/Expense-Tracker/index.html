@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Expense-Tracker">
+        <div class="form">
+            <form action="" >
+                <label for="">Expense</label>
+                <input id="Expense" type="text" placeholder="Enter the expense">
+                <label for="">Amount</label>
+                <input id="Kharcha" type="number" placeholder="Enter the Amount" min="0">
+                <button id="Add-Expense">Add Expense</button>
+            </form>
+        </div>
+
+        <div class="display">
+            <h1 class="Expense Heading"> All Expenses</h1>
+            <div class="Track" id="hidden">
+                <ul id="ExpenseList"></ul>
+            </div>
+
+
+            <h3 class="Amount" id="Amount">Total Amount</h3>
+            <div id="Amount1">
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
